@@ -17,11 +17,12 @@ $$
 * [`SingularKernelIntergralMS_Conv_Maximal_Q.m`](SingularKernelIntergralMS_Conv_Maximal_Q.m) computes $\mathbb{M}$ and $\mathtt{G}_\varepsilon$ using a maximal partition of the domain $[0,1]^2$ at each pseudospectral collocation point based on a Chebyshev grid. The function takes (at most) four arguments: the neighbourhood radius $\varepsilon$, number of collocation points in the first direction $N_x$, number of collocation points in the second direction $N_y$, and resolution factor $\alpha$.
 
 * [`Errors_SingularConv_MORE_EPS_grid_Maximal.m`](Errors_SingularConv_MORE_EPS_grid_Maximal.m) performs several error tests against many choices of $(\varepsilon,N_x,N_y,\alpha)$. It includes subroutines to:
-	1. Compute and plot the maximum error of the approximation of $K \ast 1$, see examples [`Errors_Max_Factor[10].pdf`](Errors_Max_Factor[10].pdf) and [`Errors_Max_Factor[20].pdf`](Errors_Max_Factor[20].pdf).
+	1. Compute and plot the maximum error of the approximation of $K \ast 1$, see examples [`Errors_Max_Factor[10].pdf`](Errors_Resolution/Errors_Max_Factor[10].pdf) and [`Errors_Max_Factor[20].pdf`](Errors_Resolution/Errors_Max_Factor[20].pdf).
 	2. 
 	
 It also stores the kernels for 
 
+* [`Maximal_Grid_40x40_epsB.m`](Maximal_Grid_40x40_epsB.m) a very condensed version of the previous code that only computes and stores the kernel for $\varepsilon = 10^{-5}$.
 
 ---
 
