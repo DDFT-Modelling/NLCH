@@ -18,7 +18,8 @@ $$
 
 * [`Errors_SingularConv_MORE_EPS_grid_Maximal.m`](Errors_SingularConv_MORE_EPS_grid_Maximal.m) performs several error tests against many choices of $(\varepsilon,N_x,N_y,\alpha)$. It includes subroutines to:
 	1. Compute and plot the maximum error of the approximation of $K \ast 1$, see examples [`Errors_Max_Factor[10].pdf`](Errors_Resolution/Errors_Max_Factor[10].pdf) and [`Errors_Max_Factor[20].pdf`](Errors_Resolution/Errors_Max_Factor[20].pdf).
-	2. 
+	2. Plot swarm plots comparing the approximation errors against different resolution factors $\alpha$, see examples [`Test_Singular_Convolution_Fixed_Swarm[10,2,10,16,3].pdf`](Errors_Resolution/Test_Singular_Convolution_Fixed_Swarm[10,2,10,16,3].pdf) and [`Test_Singular_Convolution_Fixed_Swarm[20,1,5,8,3].pdf`](Errors_Resolution/Test_Singular_Convolution_Fixed_Swarm[20,1,5,8,3].pdf).
+	3. 
 	
 It also stores the kernels for 
 
@@ -41,3 +42,5 @@ It also stores the kernels for
 	3. Absolute error (per node) in $\Omega \setminus B_\infty (x;\varepsilon)$.
 
 	A selection of these plots is included in the folder [`Errors_All_Mesh`](Errors_All_Mesh).
+
+* [`Plot_Errors_Singular_Conv_Facts.m`](Plot_Errors_Singular_Conv_Facts.m) plots a swarm plot comparing the errors for different resolution factors $\alpha$.
