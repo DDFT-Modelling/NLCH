@@ -1,11 +1,12 @@
 # Approximating the singular kernel
 
 We compute the action of the Newtonian kernel as
+
 $$
 \begin{align}
-	[K \ast \rho] (x) = \int\limits_{ \Omega } K(x-y) \rho(y) \, \mathrm{d}y
-	\approx \int\limits_{ \Omega \setminus B_\infty (x;\varepsilon) } K(x-y) \rho(y) \, \mathrm{d}y + \rho(x) \int\limits_{ B_\infty (x;\varepsilon) } K(x-y) \, \mathrm{d}y
-\end{align} = \mathbb{M} \rho + \rho \circ \mathtt{G}_\varepsilon.
+	[K \ast \rho] (x) &= \int\limits_{ \Omega } K(x-y) \rho(y) \ \mathrm{d}y
+	\approx \int\limits_{ \Omega \setminus B_\infty (x;\varepsilon) } K(x-y) \rho(y) \ \mathrm{d}y + \rho(x) \int\limits_{ B_\infty (x;\varepsilon) } K(x-y) \ \mathrm{d}y  = \mathbb{M} \rho + \rho \circ \mathtt{G}_\varepsilon.
+\end{align}
 $$
 
 ---
@@ -34,4 +35,4 @@ $$
 	2. Absolute error (per node) in $[0,1]^2$
 	3. Absolute error (per node) in $\Omega \setminus B_\infty (x;\varepsilon)$.
 
-A selection of these plots is included in the folder [`Errors_All_Mesh`](Errors_All_Mesh).
+	A selection of these plots is included in the folder [`Errors_All_Mesh`](Errors_All_Mesh).
