@@ -22,7 +22,7 @@ $$
 	
 It also stores the kernels for 
 
-* [`Maximal_Grid_40x40_epsB.m`](Maximal_Grid_40x40_epsB.m) a very condensed version of the previous code that only computes and stores the kernel for $\varepsilon = 10^{-5}$.
+* [`Maximal_Grid_40x40_epsB.m`](Maximal_Grid_40x40_epsB.m) a very condensed version of the previous code that only computes and stores the kernel for $\varepsilon = 10^{-5}$, $N=40$, and three factors.
 
 ---
 
