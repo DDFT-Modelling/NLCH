@@ -26,7 +26,7 @@ $$
 		d. `box` is a `2DChebClass` box object with Chebyshev collocation points.
 		e. `N`$=(N_x,N_y)$ is the number of collocation points for each direction.
 		f. `Level` is a structure that provides, for each factor $\alpha$, the approximation of $\mathbb{M}$.
-	4. 
+	4. Plot errors over domain as intensity values at each collocation point, see for example [`Test_Singular_Convolution_Domain[10,1,0.01].pdf`](Test_Singular_Convolution_Domain[10,1,0.01].pdf) and [`Test_Singular_Convolution_Domain[10,10,0.01].pdf`](Test_Singular_Convolution_Domain[10,10,0.01].pdf).
 
 	
 
@@ -51,3 +51,5 @@ $$
 	A selection of these plots is included in the folder [`Errors_All_Mesh`](Errors_All_Mesh).
 
 * [`Plot_Errors_Singular_Conv_Facts.m`](Plot_Errors_Singular_Conv_Facts.m) plots a swarm plot comparing the errors for different resolution factors $\alpha$.
+
+* [`Plot_Errors_Singular_Conv_Domain.m`](Plot_Errors_Singular_Conv_Domain.m) plot errors as intensity values over the domain at each collocation point.
