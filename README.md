@@ -6,7 +6,7 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 ### How do I run tests? ###
  
 1. Please run [`AddPaths.m`](AddPaths.m) in the main folder. 
-2. Run any file in one of the following folders:
+2. Run any Matlab file in one of the following folders:
 
 [`Control Diffusive SIRD`](Control%20Diffusive%20SIRD): Parameter learning for diffusive SIRD.
 
@@ -18,11 +18,19 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 The code was tested using Matlab R2023b and R2024a. The fastest kernel creation times (to date) can be achieved in R2023b.
 
 
+### Additional Python code
+
+Two additional notebooks are presented:
+
+* [`Exact singular convolutions.ipynb`](Exact%20singular%20convolutions.ipynb) contains a lengthly computation of the Newtonian potential against a constant function for a small neighbourhood: $[K \ast \iota_{ B_\infty (\varepsilon) (\cdot) \cap [0,1]^2 }] (x)$. Many constants related to this evaluation are computed analytically here and the result is plotted against several values of $\varepsilon$.
+
+* [`Exact singular convolutions - Numerical test.ipynb`](Exact%20singular%20convolutions%20-%20Numerical%20test.ipynb) computationally verifies the analytical formulas obtained in the previous notebook using simple quadrature methods that circumvent the singularity.
+
 ---
 
 ## About `MultiShape`
 
-`MultiShape` is a library developed by Ben Goddard, Rory Mills-Williams, John Pearson, and Jonna Roden. It builds spectral element methods based on the `2DChebClass` library. The baseline package can be found in the public repository [`MultiShape`](https://bitbucket.org/bdgoddard/multishapepublic/src/master/). A detailed presentation can be donut in **[1]**.
+`MultiShape` is a library developed by Ben Goddard, Rory Mills-Williams, John Pearson, and Jonna Roden. It builds spectral element methods based on the `2DChebClass` library. The baseline package can be found in the public repository [`MultiShape`](https://bitbucket.org/bdgoddard/multishapepublic/src/master/). A detailed presentation can be found in **[1]**.
 
 
 ---
