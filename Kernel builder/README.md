@@ -19,9 +19,16 @@ $$
 * [`Errors_SingularConv_MORE_EPS_grid_Maximal.m`](Errors_SingularConv_MORE_EPS_grid_Maximal.m) performs several error tests against many choices of $(\varepsilon,N_x,N_y,\alpha)$. It includes subroutines to:
 	1. Compute and plot the maximum error of the approximation of $K \ast 1$, see examples [`Errors_Max_Factor[10].pdf`](Errors_Resolution/Errors_Max_Factor[10].pdf) and [`Errors_Max_Factor[20].pdf`](Errors_Resolution/Errors_Max_Factor[20].pdf).
 	2. Plot swarm plots comparing the approximation errors against different resolution factors $\alpha$, see examples [`Test_Singular_Convolution_Fixed_Swarm[10,2,10,16,3].pdf`](Errors_Resolution/Test_Singular_Convolution_Fixed_Swarm[10,2,10,16,3].pdf) and [`Test_Singular_Convolution_Fixed_Swarm[20,1,5,8,3].pdf`](Errors_Resolution/Test_Singular_Convolution_Fixed_Swarm[20,1,5,8,3].pdf).
-	3. 
+	3. Store a kernel for a given pair of dimensions $(N_x, N_y)$, a fixed radius $\varepsilon > 0$, and several factors $\alpha$ in a structured object. For example, [`Singular_Kernels_Subs_10_epsA.mat`](Singular_Kernels_Subs_10_epsA.mat) contains the fields
+		a. `I`, `J`, and `G` which are used to evaluate $\mathtt{G}_\varepsilon$.
+		b. `NI`, `NJ`, and `NG` which are the numerical evaluations of the functions above at the collocation ponts.
+		c. `eps` is the value of $\varepsilon$.
+		d. `box` is a `2DChebClass` box object with Chebyshev collocation points.
+		e. `N`$=(N_x,N_y)$ is the number of collocation points for each direction.
+		f. `Level` is a structure that provides, for each factor $\alpha$, the approximation of $\mathbb{M}$.
+	4. 
+
 	
-It also stores the kernels for 
 
 * [`Maximal_Grid_40x40_epsB.m`](Maximal_Grid_40x40_epsB.m) a very condensed version of the previous code that only computes and stores the kernel for $\varepsilon = 10^{-5}$, $N=40$, and three factors.
 
