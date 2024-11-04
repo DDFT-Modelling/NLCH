@@ -22,7 +22,7 @@ The code was tested using Matlab R2023b and R2024a. The fastest kernel creation 
 
 Two additional notebooks are presented:
 
-* [`Exact singular convolutions.ipynb`](Exact%20singular%20convolutions.ipynb) contains a lengthly computation of the Newtonian potential against a constant function for a small neighbourhood: $[K \ast \iota_{ B_\infty (\varepsilon) (\cdot) \cap [0,1]^2 }] (x)$. Many constants related to this evaluation are computed analytically here and the result is plotted against several values of $\varepsilon$.
+* [`Exact singular convolutions.ipynb`](Exact%20singular%20convolutions.ipynb) contains a lengthly computation of the Newtonian potential against a constant function for a small neighbourhood: $[K \ast \iota_{ B_\infty (\cdot; \varepsilon) \cap [0,1]^2 }] (x)$. Many constants related to this evaluation are computed analytically here and the result is plotted against several values of $\varepsilon$.
 
 * [`Exact singular convolutions - Numerical test.ipynb`](Exact%20singular%20convolutions%20-%20Numerical%20test.ipynb) computationally verifies the analytical formulas obtained in the previous notebook using simple quadrature methods that circumvent the singularity.
 
