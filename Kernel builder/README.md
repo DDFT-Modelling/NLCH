@@ -27,6 +27,7 @@ $$
 		e. `N`$=(N_x,N_y)$ is the number of collocation points for each direction.
 		f. `Level` is a structure that provides, for each factor $\alpha$, the approximation of $\mathbb{M}$.
 	4. Plot errors over domain as intensity values at each collocation point, see for example [`Test_Singular_Convolution_Domain[10,1,0.01].pdf`](Errors_Domain/Test_Singular_Convolution_Domain[10,1,0.01].pdf) and [`Test_Singular_Convolution_Domain[10,10,0.01].pdf`](Errors_Domain/Test_Singular_Convolution_Domain[10,10,0.01].pdf).
+	5. Plot approximate angles that are generated from each corner of the neighbourhood $B(x;\varepsilon) \cap \Omega$ for $\varepsilon \ll 1$, see for example [`Test_Angles[20].pdf`](Angles/Test_Angles[40].pdf) and [`Test_Angles[40].pdf`](Angles/Test_Angles[100].pdf).
 
 	
 
@@ -38,6 +39,9 @@ $$
 
 * [`Newtonian_Grad_IJ.m`](Newtonian_Grad_IJ.m) computes the gradient of $\mathtt{G}_\varepsilon$ (not used in construction).
 
+* [`autosave`](autosave) provides a function to store the environment.
+
+* [`stlwrite`](stlwrite) function to store approximation matrices for 3D printing, see for example [`3Dp_10x10.stl`](3Dp_10x10.stl) generated in [`Errors_SingularConv_MORE_EPS_grid_Maximal.m`](Errors_SingularConv_MORE_EPS_grid_Maximal.m).
 
 ---
 
@@ -53,3 +57,5 @@ $$
 * [`Plot_Errors_Singular_Conv_Facts.m`](Plot_Errors_Singular_Conv_Facts.m) plots a swarm plot comparing the errors for different resolution factors $\alpha$.
 
 * [`Plot_Errors_Singular_Conv_Domain.m`](Plot_Errors_Singular_Conv_Domain.m) plot errors as intensity values over the domain at each collocation point.
+
+* [`Plot_Angles_Domain.m`](Plot_Angles_Domain.m) plot angles as intensity values over the domain at each collocation point.
