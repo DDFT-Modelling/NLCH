@@ -27,7 +27,7 @@ $$
 		e. `N`$=(N_x,N_y)$ is the number of collocation points for each direction.
 		f. `Level` is a structure that provides, for each factor $\alpha$, the approximation of $\mathbb{M}$.
 	4. Plot errors over domain as intensity values at each collocation point, see for example [`Test_Singular_Convolution_Domain[10,1,0.01].pdf`](Errors_Domain/Test_Singular_Convolution_Domain[10,1,0.01].pdf) and [`Test_Singular_Convolution_Domain[10,10,0.01].pdf`](Errors_Domain/Test_Singular_Convolution_Domain[10,10,0.01].pdf).
-	5. Plot approximate angles that are generated from each corner of the neighbourhood $B(x;\varepsilon) \cap \Omega$ for $\varepsilon \ll 1$, see for example [`Test_Angles[20].pdf`](Angles/Test_Angles[40].pdf) and [`Test_Angles[40].pdf`](Angles/Test_Angles[100].pdf).
+	5. Plot approximate angles that are generated from each corner of the neighbourhood $B(x;\varepsilon) \cap \Omega$ for $\varepsilon \ll 1$, see for example [`Test_Angles[20].pdf`](Angles/Test_Angles[20].pdf) and [`Test_Angles[100].pdf`](Angles/Test_Angles[100].pdf).
 
 	
 
