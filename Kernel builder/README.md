@@ -33,6 +33,8 @@ $$
 
 * [`Maximal_Grid_40x40_epsB.m`](Maximal_Grid_40x40_epsB.m) a very condensed version of the previous code that only computes and stores the kernel for $\varepsilon = 10^{-5}$, $N=40$, and three factors.
 
+* [`Maximal_Grid_50x50_epsB.m`](Maximal_Grid_50x50_epsB.m) same as above but for $N=50$ and three factors.
+
 Note: Kernel files might have to be split (due to file-size limitations in GitHub).
 
 ---

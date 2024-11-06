@@ -9,6 +9,8 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 2. Run any Matlab file in this folder or any of the following:
 
 	* [`Kernel builder`](Kernel%20builder): Code for building spectral element approximation of the Newtonian Kernel.
+	
+	* [`Compressed Kernels`](Compressed%20Kernels): Kernels for $N\in \{40,50\}$ that are split into several files due to GitHub's file-size limit.
 
 	* [`Source`](Source): Solves the NLCH with a source. Two examples are included: a constant source and a decaying wave.
 
