@@ -23,10 +23,23 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
 A gallery of examples is presented and based on the following scripts:
 
-* [`NL_CH_Integrator_Simple.m`](NL_CH_Integrator_Simple.m) solves the NLCH system using Matlab's own DAE solver for Neumann data.
-* [`NL_CH_Integrator_DAE.m`](NL_CH_Integrator_DAE.m) solves the NLCH system with a DAE solver for Neumann data.
+* [`NL_CH_Integrator_Simple.m`](NL_CH_Integrator_Simple.m): Solves the NLCH system using Matlab's own DAE solver for Neumann data.
+* [`NL_CH_Integrator_DAE.m`](NL_CH_Integrator_DAE.m): Solves the NLCH system with a DAE solver for Neumann data.
+
+Since the kernel has already been created in the other folders, we explore the scalings
+
+$$
+\begin{align*}
+	K_\eta : \R^2 \setminus\{0\} \ni x  \longmapsto  \frac{\eta}{2\pi} \log \|x\| = \frac{\eta}{4\pi} \log ( x_1^2 + x_2^2 ) \in \R,
+\end{align*}
+$$
+for $\eta > 0$.
 
 A minimal working example is presented in [`Run_Example.m`](Run_Example.m) which solves the system for a wave of compact support and the convolution kernel is scaled by $\eta = 300$, see [`MWE.gif`](MWE.gif) for an animation.
+
+Additional examples:
+
+* [`Periodic_Wave.m`](Periodic_Wave.m): Solves the NLCH system with initial condition $\rho_0(x) = \sin(2\pi x_1) \cos(2\pi x_2)$.
 
 
 
