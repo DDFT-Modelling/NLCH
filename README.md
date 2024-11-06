@@ -12,6 +12,8 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
 	* [`Source`](Source): Solves the NLCH with a source. Two examples are included: a constant source and a decaying wave.
 
+	* [`DAE Tests`](DAE%20Tests): Examples of the DAE solver for a 1D and 2D heat equations.
+
 
 3. (Optional) If the code requires a kernel that has been split into several files (e.g., `Singular_Kernels_Subs_40_epsB_[split_1].mat`), then rebuild it using the code available in [File_Splitter.m](Kernel%20builder/File_Splitter.m).
 
@@ -20,9 +22,10 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
 The code was tested using Matlab R2023b and R2024a. The fastest kernel creation times (to date) can be achieved in R2023b.
 
-### Additional files
 
-* [`plots_in_box.m`](plots_in_box.m) returns an animation of the solution.
+### Additional files
+
+* [`plots_in_box.m`](plots_in_box.m) returns an animation of a spatio–temporal density.
 
 
 ### Additional Python code
