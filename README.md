@@ -33,6 +33,7 @@ $$
 	K_\eta : \R^2 \setminus\{0\} \ni x  \longmapsto  \frac{\eta}{2\pi} \log \|x\| = \frac{\eta}{4\pi} \log ( x_1^2 + x_2^2 ) \in \R,
 \end{align*}
 $$
+
 for $\eta > 0$.
 
 A minimal working example is presented in [`Run_Example.m`](Run_Example.m) which solves the system for a wave of compact support and the convolution kernel is scaled by $\eta = 300$, see [`MWE.gif`](MWE.gif) for an animation.
