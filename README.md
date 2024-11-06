@@ -10,15 +10,19 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
 	* [`Kernel builder`](Kernel%20builder): Code for building spectral element approximation of the Newtonian Kernel.
 
+	* [`Source`](Source): Solves the NLCH with a source. Two examples are included: a constant source and a decaying wave.
+
+
 3. (Optional) If the code requires a kernel that has been split into several files (e.g., `Singular_Kernels_Subs_40_epsB_[split_1].mat`), then rebuild it using the code available in [File_Splitter.m](Kernel%20builder/File_Splitter.m).
 
 
-
-
-
-### Requirements (Matlab Versions)
+### Requirements (Matlab versions)
 
 The code was tested using Matlab R2023b and R2024a. The fastest kernel creation times (to date) can be achieved in R2023b.
+
+### Additional files
+
+* [`plots_in_box.m`](plots_in_box.m) returns an animation of the solution.
 
 
 ### Additional Python code
@@ -31,14 +35,14 @@ Two additional notebooks are presented:
 
 ---
 
-## About `MultiShape`
+### About `MultiShape`
 
 `MultiShape` is a library developed by Ben Goddard, Rory Mills-Williams, John Pearson, and Jonna Roden. It builds spectral element methods based on the `2DChebClass` library. The baseline package can be found in the public repository [`MultiShape`](https://bitbucket.org/bdgoddard/multishapepublic/src/master/). A detailed presentation can be found in **[1]**.
 
 
 ---
 
-## About `2DChebClass`
+### About `2DChebClass`
 
 
 `2DChebClass` is a library developed by Andreas Nold and Ben Goddard. It can be used to solve a wide range of (integro-)differential systems in various 1D and 2D geometries. The baseline package can be found in the public repository [`2DChebClass`](https://github.com/NoldAndreas/2DChebClass). A detailed presentation can be found in **[2]**.
