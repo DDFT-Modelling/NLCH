@@ -44,7 +44,7 @@ A. [`Periodic_Wave.m`](Periodic_Wave.m): Solves the NLCH system with initial con
 
 B. [`Constant.m`](Constant.m): The initial condition is a constant state $\rho_0 \equiv -\frac{1}{2}$. Figures associated with this experiment are presented in the folder [`Gallery_C`](Gallery_C).
 
-C. [`Compact.m`](Compact.m): The initial condition is a wave with compact support. 
+C. [`Compact.m`](Compact.m): The initial condition is a wave with compact support. Figures associated with this experiment are presented in the folder [`Gallery_CW`](Gallery_CW).
 
 
 ### Requirements (Matlab versions)
