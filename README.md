@@ -30,7 +30,7 @@ Since the kernel has already been created in the other folders, we explore the s
 
 $$
 \begin{align*}
-	K_\eta : \R^2 \setminus\{0\} \ni x  \longmapsto  \frac{\eta}{2\pi} \log \|x\| = \frac{\eta}{4\pi} \log ( x_1^2 + x_2^2 ) \in \R,
+	K_\eta : \mathbb{R}^2 \setminus\{0\} \ni x  \longmapsto  \frac{\eta}{2\pi} \log \|x\| = \frac{\eta}{4\pi} \log ( x_1^2 + x_2^2 ) \in \mathbb{R},
 \end{align*}
 $$
 
