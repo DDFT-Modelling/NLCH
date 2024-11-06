@@ -10,7 +10,7 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
 	* [`Kernel builder`](Kernel%20builder): Code for building spectral element approximation of the Newtonian Kernel.
 	
-	* [`Compressed Kernels`](Compressed%20Kernels): Kernels for $N\in \{40,50\}$ that are split into several files due to GitHub's file-size limit.
+	* [`Compressed Kernels`](Compressed%20Kernels): Kernels for $N\in \\{40,50\\}$ that are split into several files due to GitHub's file-size limit.
 
 	* [`Source`](Source): Solves the NLCH with a source. Two examples are included: a constant source and a decaying wave.
 
@@ -18,6 +18,16 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
 
 3. (Optional) If the code requires a kernel that has been split into several files (e.g., `Singular_Kernels_Subs_40_epsB_[split_1].mat`), then rebuild it using the code available in [File_Splitter.m](Kernel%20builder/File_Splitter.m).
+
+## Files in this folder
+
+A gallery of examples is presented and based on the following scripts:
+
+* [`NL_CH_Integrator_Simple.m`](NL_CH_Integrator_Simple.m) solves the NLCH system using Matlab's own DAE solver for Neumann data.
+* [`NL_CH_Integrator_DAE.m`](NL_CH_Integrator_DAE.m) solves the NLCH system with a DAE solver for Neumann data.
+
+A minimal working example is presented in [`Run_Example.m`](Run_Example.m) which solves the system for a wave of compact support and the convolution kernel is scaled by $\eta = 300$, see [`MWE.gif`](MWE.gif) for an animation.
+
 
 
 ### Requirements (Matlab versions)
