@@ -33,6 +33,8 @@ $$
 
 * [`Maximal_Grid_40x40_epsB.m`](Maximal_Grid_40x40_epsB.m) a very condensed version of the previous code that only computes and stores the kernel for $\varepsilon = 10^{-5}$, $N=40$, and three factors.
 
+Note: Kernel files might have to be split (due to file-size limitations in GitHub).
+
 ---
 
 ## Supplementary files
@@ -42,6 +44,10 @@ $$
 * [`autosave`](autosave) provides a function to store the environment.
 
 * [`stlwrite`](stlwrite) function to store approximation matrices for 3D printing, see for example [`3Dp_10x10.stl`](3Dp_10x10.stl) generated in [`Errors_SingularConv_MORE_EPS_grid_Maximal.m`](Errors_SingularConv_MORE_EPS_grid_Maximal.m).
+
+* [`comp_struct`](comp_struct) package for comparing structs.
+
+* [`File_Splitter.m`](File_Splitter.m) code for splitting a file into two parts or recombining both files.
 
 ---
 
