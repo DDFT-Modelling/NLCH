@@ -6,11 +6,14 @@ Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 ### How do I run tests? ###
  
 1. Please run [`AddPaths.m`](AddPaths.m) in the main folder. 
-2. Run any Matlab file in one of the following folders:
+2. Run any Matlab file in this folder or any of the following:
 
-[`Control Diffusive SIRD`](Control%20Diffusive%20SIRD): Parameter learning for diffusive SIRD.
+	* [`Kernel builder`](Kernel%20builder): Code for building spectral element approximation of the Newtonian Kernel.
 
-[`Control DDFT SIRD`](Control%20DDFT%20SIRD): Discovering nonpharmaceutical controls for the SIRD–DDFT model.
+3. (Optional) If the code requires a kernel that has been split into several files (e.g., `Singular_Kernels_Subs_40_epsB_[split_1].mat`), then rebuild it using the code available in [File_Splitter.m](Kernel%20builder/File_Splitter.m).
+
+
+
 
 
 ### Requirements (Matlab Versions)
@@ -40,6 +43,7 @@ Two additional notebooks are presented:
 
 `2DChebClass` is a library developed by Andreas Nold and Ben Goddard. It can be used to solve a wide range of (integro-)differential systems in various 1D and 2D geometries. The baseline package can be found in the public repository [`2DChebClass`](https://github.com/NoldAndreas/2DChebClass). A detailed presentation can be found in **[2]**.
 
+---
 
 **[1]** Jonna C. Roden, Rory D. Mills-Williams, John W. Pearson, and Benjamin D. Goddard, 2024 "MultiShape: a spectral element method, with applications to Dynamical Density Functional Theory and PDE-constrained optimization." _IMA Journal of Numerical Analysis,_ drae066. Links: [ArXiv](https://arxiv.org/abs/2207.05589), [IMA JNA](https://doi.org/10.1093/imanum/drae066)
 
