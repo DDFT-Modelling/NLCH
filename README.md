@@ -42,6 +42,9 @@ Additional examples:
 
 A. [`Periodic_Wave.m`](Periodic_Wave.m): Solves the NLCH system with initial condition $\rho_0(x) = \sin(2\pi x_1) \cos(2\pi x_2)$. Energy plots are presented in [`NLCH_Energy_PW.pdf`](NLCH_Energy_PW.pdf), an example is animated in [`A_eta=-1.gif`](A_eta=-1.gif), example density plots are presented in [`A_Solution_PW.pdf`](A_Solution_PW.pdf). More figures for each case are presented in the folder [`Gallery_PW`](Gallery_PW).
 
+B. [`Constant.m`](Constant.m): The initial condition is a constant state $\rho_0 \equiv -\frac{1}{2}$. Figures associated with this experiment are presented in the folder [`Gallery_C`](Gallery_C).
+
+C. [`Compact.m`](Compact.m): The initial condition is a wave with compact support. 
 
 
 ### Requirements (Matlab versions)
