@@ -46,6 +46,10 @@ B. [`Constant.m`](Constant.m): The initial condition is a constant state $\rho_0
 
 C. [`Compact.m`](Compact.m): The initial condition is a wave with compact support. Figures associated with this experiment are presented in the folder [`Gallery_CW`](Gallery_CW).
 
+D. [`Regular.m`](Regular.m): The initial condition is the same as above, but we use a regular potential to approximate the action of the singular potential. Outputs are presented in [`Gallery_Regular`](`Gallery_Regular`).
+
+
+
 
 ### Requirements (Matlab versions)
 

@@ -1,5 +1,5 @@
 %% Study of scalings of K
-% Initial condition given by a periodic wave ρ₀(x) = sin(2π x₁) cos(2π x₂)
+% Initial condition given a constant ρ₀(x) = -0.5
 
 %% Load data
 load('Singular_Kernels_Subs_40_epsB.mat', 'Newtonians')
