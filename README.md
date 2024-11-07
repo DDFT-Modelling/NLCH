@@ -48,7 +48,7 @@ C. [`Compact.m`](Compact.m): The initial condition is a wave with compact suppor
 
 D. [`Regular.m`](Regular.m): The initial condition is the same as above, but we use a regular potential to approximate the action of the singular potential. Outputs are presented in [`Gallery_Regular`](`Gallery_Regular`).
 
-
+E. [`Mixture.m`](Mixture.m): The initial condition is the same as above, but we mix the singular potential with a convolution kernel. Outputs are presented in [`Gallery_Mixture`](`Gallery_Mixture`).
 
 
 ### Requirements (Matlab versions)
