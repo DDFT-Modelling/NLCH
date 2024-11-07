@@ -54,8 +54,8 @@ colormap bone
 
 fontsize(11,"points")
 
-%exportgraphics(figure(500), strcat('A_Solution_PS.pdf'), 'BackgroundColor','none','ContentType','vector', 'Resolution', 300)
-exportgraphics(figure(500), Out_Name, 'BackgroundColor','none','ContentType','vector', 'Resolution', 300)
+exportgraphics(figure(500), strcat('A_Solution_PS.pdf'), 'BackgroundColor','none','ContentType','vector', 'Resolution', 300)
+%exportgraphics(figure(500), Out_Name, 'BackgroundColor','none','ContentType','vector', 'Resolution', 300)
 
 %colormap default
 
