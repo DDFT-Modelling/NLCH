@@ -1,6 +1,13 @@
 # NLCH
 Extension for the Nonlocal Cahn–Hilliard Equation with singular potentials
 
+# 🚩 Update 🚩
+
+**New and revised code will be updated on the following two repositories:**
+
+* [`NLCH_Boxes`](https://github.com/DDFT-Modelling/NLCH_Boxes): Specialised code for solving the NLCH system on rectangular domains (with a truncated kernel for the 3D case).
+* [`NLCH_Discs`](https://github.com/DDFT-Modelling/NLCH_Discs): Module for solving the equation on the disc with the introduction of new shapes for the MultiShape package. Employs code from the sister project [`DiscConv`](https://github.com/DDFT-Modelling/DiscConv).
+
 ---
 
 ### How do I run tests? ###
